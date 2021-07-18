@@ -1,0 +1,18 @@
+{
+  "name": "Typescript_example",
+  "version": "1.0.0",
+  "description": "https://github.com/Geonyeong-Son/Typescript_example.git",
+  "main": "index.js",
+  "repository": "https://github.com/Geonyeong-Son/Typescript_example.git",
+  "author": "GEONYEONG SON <thsrjs5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.4.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
